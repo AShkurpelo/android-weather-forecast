@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    tools:layout_editor_absoluteX="0dp"
+    tools:layout_editor_absoluteY="81dp">
+
+    <LinearLayout
+        android:layout_width="51dp"
+        android:layout_height="44dp"
+        android:orientation="vertical"
+        tools:layout_editor_absoluteX="8dp"
+        tools:layout_editor_absoluteY="8dp">
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/ic_min_temp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="ic"
+                android:textColor="@color/colorIcon"
+                android:textSize="@dimen/icon_sz"
+                tools:layout_editor_absoluteX="67dp"
+                tools:layout_editor_absoluteY="38dp" />
+
+            <TextView
+                android:id="@+id/txtMinTemp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="15"
+                android:textColor="@color/colorText"
+                tools:layout_editor_absoluteX="97dp"
+                tools:layout_editor_absoluteY="42dp" />
+
+            <TextView
+                android:id="@+id/ic_max_temp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="ic"
+                android:textColor="@color/colorIcon"
+                android:textSize="@dimen/icon_sz"
+                tools:layout_editor_absoluteX="67dp"
+                tools:layout_editor_absoluteY="8dp" />
+
+            <TextView
+                android:id="@+id/txtMaxTemp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="12"
+                android:textColor="@color/colorText"
+                tools:layout_editor_absoluteX="97dp"
+                tools:layout_editor_absoluteY="12dp" />
+        </FrameLayout>
+    </LinearLayout>
+
+    <FrameLayout
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        tools:layout_editor_absoluteX="8dp"
+        tools:layout_editor_absoluteY="8dp">
+
+        <TextView
+            android:id="@+id/txtWind"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="2.5"
+            android:textColor="@color/colorText"
+            tools:layout_editor_absoluteX="274dp"
+            tools:layout_editor_absoluteY="42dp" />
+
+        <TextView
+            android:id="@+id/txtHumidity"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="90"
+            android:textColor="@color/colorText"
+            app:layout_constraintLeft_toLeftOf="@+id/txtWind"
+            app:layout_constraintRight_toRightOf="@+id/txtWind"
+            tools:layout_editor_absoluteY="12dp" />
+
+        <TextView
+            android:id="@+id/ic_humidity_lbl"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="ic"
+            android:textColor="@color/colorIcon"
+            android:textSize="@dimen/icon_sz"
+            app:layout_constraintRight_toRightOf="@+id/ic_wind_lbl"
+            tools:layout_editor_absoluteY="8dp" />
+
+        <TextView
+            android:id="@+id/ic_wind_lbl"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="ic"
+            android:textColor="@color/colorIcon"
+            android:textSize="@dimen/icon_sz"
+            tools:layout_editor_absoluteX="245dp"
+            tools:layout_editor_absoluteY="38dp" />
+    </FrameLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

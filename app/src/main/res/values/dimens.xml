@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="icon_sz">18sp</dimen>
+    <dimen name="large_icon_sz">24sp</dimen>
+    <dimen name="btn_sz">28dp</dimen>
+    <dimen name="btn_sm">16dp</dimen>
+</resources>

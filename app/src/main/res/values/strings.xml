@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">Weather Forecast</string>
+    <string name="openweather_appid">e28f0c08c52cbb30026878b497541367</string>
+    <string name="request_gps">Для получения прогноза погоды нужно включить GPS.</string>
+    <string name="string_yes">Да</string>
+    <string name="string_no">Нет</string>
+    <string name="string_loading_message">Loading. Please wait…</string>
+    <string name="lbl_night">Ночью</string>
+    <string name="lbl_evening">Вечером</string>
+    <string name="lbl_day">Днем</string>
+    <string name="lbl_morning">Утром</string>
+    <string name="copyright_footer">Данные о погоде с сайта openweathermap.com</string>
+    <string name="about_message">Alexander Shkurpelo</string>
+    <string name="about_title">Weather Forecast</string>
+
+
+</resources>

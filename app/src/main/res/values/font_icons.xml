@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="celcius">\u00B0</string>
+    <string name="i_sunny">\uf00d</string>
+    <string name="i_humidity">\uf07a</string>
+    <string name="i_wind">\uf050</string>
+    <string name="i_min_temp">\uf053 </string>
+    <string name="i_max_temp">\uf055 </string>
+</resources>
